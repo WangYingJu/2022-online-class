@@ -162,10 +162,11 @@ img {
   margin-top: 16px;
 }
 
-.footer .list-items img + img {
+.footer .social-body img + img {
   margin-left: 24px;
 }
 
 .social-icon {
   display: inline-block;
+  vertical-align: middle;
 }
