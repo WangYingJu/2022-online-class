@@ -1,0 +1,171 @@
+/* 共用 */
+a {
+  color: var(--color-whiteFont);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color-lightLine);
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --bgColor: #415165;
+  --color-red: #a00404;
+  --color-lightLine: #96a9c4;
+  --color-darkLine: black;
+  --color-whiteFont: white;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.full-version .container {
+  width: 996px;
+}
+
+.list li + li {
+  margin-top: 24px;
+}
+
+.list-items {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.full-version {
+  background-color: var(--bgColor);
+  color: var(--color-whiteFont);
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.sub {
+  display: inline-block;
+  font-size: 24px;
+  color: var(--color-red);
+  line-height: 36px;
+  vertical-align: top;
+  padding-top: 5px;
+  margin-left: 16px;
+}
+
+/* 自定義 */
+.header h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding-top: 40px;
+  padding-bottom: 22px;
+  border-bottom: 2px var(--color-darkLine) solid;
+}
+
+.photo {
+  margin: 48px 0;
+}
+
+.profile h2,
+.education h2,
+.skills h2,
+.experience h2,
+.footer h2 {
+  font-size: 32px;
+  line-height: 48px;
+  border-bottom: 1px var(--color-darkLine) solid;
+  margin-bottom: 16px;
+  color: var(--color-darkLine);
+  padding-bottom: 7px;
+}
+
+.profile,
+.education,
+.skills {
+  margin-bottom: 64px;
+}
+
+.education li + li {
+  margin-top: 16px;
+}
+
+.skills h2,
+.skills .sub,
+.skills .list {
+  color: var(--color-whiteFont);
+}
+
+.skills h2 {
+  border-bottom: 1px var(--color-whiteFont) solid;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.skills .list {
+  margin: 0 auto;
+  max-width: 223px;
+  padding-left: 23px;
+  border-left: 1px var(--color-lightLine) solid;
+}
+
+.skills li + li {
+  margin-top: 8px;
+}
+
+.experience {
+  margin-bottom: 80px;
+}
+
+.experience .list {
+  padding-left: 24px;
+  margin-left: 24px;
+  border-left: 1px var(--color-lightLine) solid;
+}
+
+.experience p {
+  width: 642px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer h2,
+.footer .sub,
+.footer .list {
+  color: var(--color-whiteFont);
+  text-align: center;
+}
+
+.footer h2 {
+  border-bottom: 1px var(--color-whiteFont) solid;
+  margin-bottom: 24px;
+}
+
+.footer li + li {
+  margin-top: 16px;
+}
+
+.footer .list-items img + img {
+  margin-left: 24px;
+}
+
+.social-icon {
+  display: inline-block;
+}

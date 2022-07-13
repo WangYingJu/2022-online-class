@@ -1,0 +1,38 @@
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.news li + li {
+  margin-top: 24px;
+}
+
+.news-item {
+  display: flex;
+}
+
+.article {
+  margin: 0 20px;
+}
+
+.article h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.article p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  padding: calc((120px - 16px * 1.5) / 2);
+}

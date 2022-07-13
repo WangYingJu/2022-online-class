@@ -1,0 +1,128 @@
+/* 共用設定 */
+body {
+  max-width: 1920px;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+
+.content {
+  max-width: 1200px;
+  padding: 40px 0 48px 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 8px;
+}
+
+h2 .dark-red {
+  color: #a00404;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 16px;
+}
+
+.dark-bg .dark-red {
+  color: #fff;
+}
+
+.list h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: normal;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px;
+}
+
+.main .border-bottom {
+  border-bottom: 2px solid #000;
+}
+
+.photo img {
+  width: 324px;
+  margin: 48px 0;
+}
+
+.list {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.list li + li {
+  margin-top: 24px;
+}
+
+.dark-bg {
+  background-color: #415165;
+  color: #fff;
+  text-align: center;
+  padding: 24px 102px 52px 102px;
+}
+
+.dark-bg .border-bottom {
+  margin-bottom: 32px;
+}
+
+.border-left {
+  display: inline-block;
+  margin: 0 auto;
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+}
+
+.border-left .list {
+  text-align: left;
+}
+
+.skills .border-left .list li + li {
+  margin-top: 20px;
+}
+
+.skills .border-bottom,
+footer .border-bottom {
+  border-color: #fff;
+}
+
+.work-experience .border-left {
+  margin-left: 16px;
+}
+
+.experience-content {
+  width: 642px;
+}
+
+.work-experience .work-imgs {
+  margin: 8px 0;
+}
+
+.experience-content-detail {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer .list li + li {
+  margin-top: 16px;
+}
+
+footer .list a + a {
+  margin-left: 24px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
