@@ -1,0 +1,238 @@
+/* 共用 */
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --colorWhite: #ffffff;
+  --colorBlack: #000000;
+  --colorGray: #707070;
+  --colorDarkRed: #891818;
+}
+
+.fz-sm {
+  font-size: 20px;
+}
+
+.fz-md {
+  font-size: 24px;
+}
+
+.fz-lg {
+  font-size: 64px;
+  line-height: 84px;
+}
+
+.fz-xl {
+  font-size: 80px;
+  line-height: 106px;
+}
+
+.lh-sm {
+  line-height: 1.5;
+}
+
+.lh-ms {
+  line-height: 1.75;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+/* header */
+.header {
+  background: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png")
+    no-repeat center;
+  /* height: 100vh; */
+  border: 1px solid var(--colorGray);
+}
+
+.header .container {
+  width: 304px;
+  margin: 0 auto;
+  color: var(--colorWhite);
+  margin-top: 308px;
+  margin-bottom: 308px;
+}
+
+.header h1 {
+  margin-bottom: 32px;
+}
+
+.header .official {
+  margin-bottom: 40px;
+}
+
+.header .social-list {
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.header .social-items a {
+  opacity: 1;
+}
+
+.header .social-items a:hover {
+  opacity: 0.8;
+}
+
+/* about */
+.about {
+  color: var(--colorBlack);
+  text-align: center;
+  width: 412px;
+  margin: 0 auto;
+  padding-bottom: 56px;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+}
+
+.about .photo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.about .personal {
+  border-bottom: 1px solid var(--colorBlack);
+  margin-bottom: 28px;
+}
+
+.about .experience-list li + li {
+  margin-top: 28px;
+}
+
+.about .experience-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .bullet {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--colorDarkRed);
+  margin-right: 16px;
+}
+
+/* mybrand */
+.mybrand {
+  padding-top: 56px;
+  padding-bottom: 160px;
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  text-align: center;
+}
+
+.mybrand .container {
+  width: calc(1920px - 360 * 2px);
+  margin: 0 auto;
+}
+
+.mybrand h2 {
+  margin-bottom: 12px;
+}
+
+.mybrand .brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+
+.mybrand .one {
+  margin-left: calc(50% - (792px / 2));
+  margin-bottom: 40px;
+}
+
+/* other */
+.Other {
+  padding-top: 56px;
+  padding-bottom: calc(144px - 48px);
+  text-align: center;
+}
+
+.Other .container {
+  width: calc(1920px - 360 * 2px);
+  margin: 0 auto;
+}
+
+.Other .work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Other .work-list li + li {
+  /* margin-left: 24px; */
+}
+
+.Other .work-items {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.Other .work-items img {
+  margin-bottom: 16px;
+}
+
+.Other .work-items p {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+/* footer */
+.footer {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  text-align: center;
+  padding: 64px 0;
+}
+
+.footer a {
+  color: var(--colorWhite);
+}
+
+.footer a:hover {
+  color: var(--colorGray);
+}
+
+.footer .contact-list li + li {
+  margin-top: 16px;
+}
